@@ -1,54 +1,40 @@
 // Void Functions and Parameters
-
-// I CAN write and call functions
-// I CAN explain and use function parameters
-
+// 
+// I CAN write and call void functions
 
 #include <iostream>
 using namespace std;
 
-//** Functions start here **
+
+// Welcome function
+// Displays a greeting message
 void welcome() {
-	cout << "WELCOME TO THE FUNCTION NOTES" << endl;
+	cout << "WELCOME TO THE VOID FUNCTION NOTES" << endl;
 	cout << "*****************************" << endl << endl;
 }
 
 
-
-//** Functions end here **
-
-
 int main()
 {
-	//FUNCTIONS are short tasks that allow us to break
-	//problems into smaller chunks. 
+	//Not all functions produce an output (return value)
+	//These functions are call VOID
 
-	//Every function has an IDENTIFIER used to CALL the
-	//function. When we CALL the funtion, it performs its 
-	//task
-
+	//EXAMPLE 1
 	//Call the welcome function
-
-
-	//PARAMTERS allow us to send information to a function
-	//The function uses this information to perform its task
-
-	
-	//Let's call a function that doubles a number
 	
 
+	//Void functions do a job, but do not return an answer
 
-	//Let's call a function that spams the message "Buy Gecko Insurance!" 
-	//20 times
-	
+	//EXAMPLE 2
+	//Let's write and call a function that spams the  
+	//message "Buy Gecko Insurance!" 20 times	
 
 
-	//You try: spam the message "Drink Pepsi" 13 times
-	
 
-	//You try: spam the message "Tibor was here" n times, where
-	//         n is a number entered by the user
-	int n;
+	//EXAMPLE 3
+	//You try: spam the message "Drink Pepsi" n times, where n
+	//is a number entered by the user
+
 
 
 
